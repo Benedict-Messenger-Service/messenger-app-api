@@ -1,0 +1,24 @@
+# package directories
+node_modules
+
+# build directories
+dist
+build
+
+# configuration secrets
+storage
+.env
+*.env
+*.env.sh
+
+# testing coverage reports
+coverage
+
+# error logs
+*.log
+
+# local certificates
+certs
+
+# Don't version control local legacy files
+*.old
